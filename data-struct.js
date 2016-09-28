@@ -1,7 +1,7 @@
 var mongoose = require('mongoose'),
     app = require('./server'),
-    url = 'mongodb://joel:mongo@jello.modulusmongo.net:27017/ohuQ9ino';
-    //url = 'mongodb://joelomar:devel0p3r@ds035826.mlab.com:35826/private_chat';
+    url = 'mongodb://user:pass@jello.modulusmongo.net:27017/ohuQ9ino';
+    //url = 'mongodb://user:pass@ds035826.mlab.com:35826/private_chat';
     //url = 'mongodb://localhost:27017/app_data';
 
 mongoose.connect(url);
